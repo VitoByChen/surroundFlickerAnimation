@@ -15,6 +15,7 @@
 		4A3E4FFC1ECD88AC00396635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E4FFB1ECD88AC00396635 /* Assets.xcassets */; };
 		4A3E4FFF1ECD88AC00396635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E4FFD1ECD88AC00396635 /* LaunchScreen.storyboard */; };
 		4A3E500A1ECD88AC00396635 /* AnimationViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E50091ECD88AC00396635 /* AnimationViewUITests.m */; };
+		4A48DE721EE0FD7E00D3C042 /* TestView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48DE711EE0FD7E00D3C042 /* TestView1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		4A3E50051ECD88AC00396635 /* AnimationViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3E50091ECD88AC00396635 /* AnimationViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewUITests.m; sourceTree = "<group>"; };
 		4A3E500B1ECD88AC00396635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A48DE701EE0FD7E00D3C042 /* TestView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView1.h; sourceTree = "<group>"; };
+		4A48DE711EE0FD7E00D3C042 /* TestView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				4A3E4FF31ECD88AC00396635 /* AppDelegate.m */,
 				4A3E4FF51ECD88AC00396635 /* ViewController.h */,
 				4A3E4FF61ECD88AC00396635 /* ViewController.m */,
+				4A48DE701EE0FD7E00D3C042 /* TestView1.h */,
+				4A48DE711EE0FD7E00D3C042 /* TestView1.m */,
 				4A343D781EDE905400910EB2 /* TestView2.h */,
 				4A343D791EDE905400910EB2 /* TestView2.m */,
 				4A3E4FF81ECD88AC00396635 /* Main.storyboard */,
@@ -224,6 +229,7 @@
 				4A3E4FF41ECD88AC00396635 /* AppDelegate.m in Sources */,
 				4A3E4FF11ECD88AC00396635 /* main.m in Sources */,
 				4A343D7A1EDE905400910EB2 /* TestView2.m in Sources */,
+				4A48DE721EE0FD7E00D3C042 /* TestView1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

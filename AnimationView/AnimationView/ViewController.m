@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TestView1.h"
 #import "TestView2.h"
 @interface ViewController ()
 
@@ -25,9 +26,15 @@
 
 -(void)initView {
 
-    TestView2 *testView2 = [[TestView2 alloc] initWithFrame:CGRectMake(100, 100, 200, 100)];
+    TestView2 *testView2 = [[TestView2 alloc] initWithFrame:CGRectMake(100, 100, 200, 50)];
     testView2.backgroundColor = [UIColor clearColor];
     [self.view addSubview:testView2];
+    
+    
+    
+    TestView1 *testView1 = [[TestView1 alloc] initWithFrame:CGRectMake(100, 300, 200, 50)];
+    testView1.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:testView1];
 }
 
 
