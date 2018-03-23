@@ -10,6 +10,7 @@
 #import "TestView1.h"
 #import "TestView2.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *testBtn;
 
 @end
 
@@ -37,6 +38,20 @@
     [self.view addSubview:testView1];
 }
 
+- (IBAction)testBtnClick:(UIButton *)sender {
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"BuildEnvironmentList" ofType:@"plist"];
+    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:filePath];
+ 
+    NSString *ip = dict[dict[@"Environment"]][@"IPAddress"];
+    NSString *prot = dict[dict[@"Environment"]][@"Port"];
+    UIAlertController *vc = [UIAlertController alertControllerWithTitle:ip message:prot preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *action = [UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    
+    [vc addAction:action];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 
 @end

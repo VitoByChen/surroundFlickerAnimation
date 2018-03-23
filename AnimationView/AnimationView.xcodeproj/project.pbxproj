@@ -16,6 +16,7 @@
 		4A3E4FFF1ECD88AC00396635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E4FFD1ECD88AC00396635 /* LaunchScreen.storyboard */; };
 		4A3E500A1ECD88AC00396635 /* AnimationViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E50091ECD88AC00396635 /* AnimationViewUITests.m */; };
 		4A48DE721EE0FD7E00D3C042 /* TestView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48DE711EE0FD7E00D3C042 /* TestView1.m */; };
+		5F43ED282064D8FD00ED3EFF /* BuildEnvironmentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F43ED272064D8FD00ED3EFF /* BuildEnvironmentList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		4A3E500B1ECD88AC00396635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A48DE701EE0FD7E00D3C042 /* TestView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView1.h; sourceTree = "<group>"; };
 		4A48DE711EE0FD7E00D3C042 /* TestView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView1.m; sourceTree = "<group>"; };
+		5F43ED272064D8FD00ED3EFF /* BuildEnvironmentList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildEnvironmentList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				4A3E4FF01ECD88AC00396635 /* main.m */,
+				5F43ED272064D8FD00ED3EFF /* BuildEnvironmentList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A3E4FFF1ECD88AC00396635 /* LaunchScreen.storyboard in Resources */,
+				5F43ED282064D8FD00ED3EFF /* BuildEnvironmentList.plist in Resources */,
 				4A3E4FFC1ECD88AC00396635 /* Assets.xcassets in Resources */,
 				4A3E4FFA1ECD88AC00396635 /* Main.storyboard in Resources */,
 			);
@@ -414,6 +418,149 @@
 			};
 			name = Release;
 		};
+		5F43ED1F2063BFED00ED3EFF /* Debug_DEV */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug_DEV;
+		};
+		5F43ED202063BFED00ED3EFF /* Debug_DEV */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = F72346CD3N;
+				INFOPLIST_FILE = AnimationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinaif.creditfqhb1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b56dfe09-3fa9-4f5e-8cff-5b3140f053f3";
+				PROVISIONING_PROFILE_SPECIFIER = fenqihuanbe_develop;
+			};
+			name = Debug_DEV;
+		};
+		5F43ED212063BFED00ED3EFF /* Debug_DEV */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5J32R9MXM2;
+				INFOPLIST_FILE = AnimationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgsir.AnimationViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimationView;
+			};
+			name = Debug_DEV;
+		};
+		5F43ED222063C00E00ED3EFF /* Release_DEV */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release_DEV;
+		};
+		5F43ED232063C00E00ED3EFF /* Release_DEV */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = F72346CD3N;
+				INFOPLIST_FILE = AnimationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinaif.creditfqhb1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90fb6034-a692-4d84-9232-9ebb4dd1cbb6";
+				PROVISIONING_PROFILE_SPECIFIER = fenqihuanbe_adhoc;
+			};
+			name = Release_DEV;
+		};
+		5F43ED242063C00E00ED3EFF /* Release_DEV */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5J32R9MXM2;
+				INFOPLIST_FILE = AnimationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgsir.AnimationViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimationView;
+			};
+			name = Release_DEV;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -421,7 +568,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A3E500C1ECD88AC00396635 /* Debug */,
+				5F43ED1F2063BFED00ED3EFF /* Debug_DEV */,
 				4A3E500D1ECD88AC00396635 /* Release */,
+				5F43ED222063C00E00ED3EFF /* Release_DEV */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -430,7 +579,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A3E500F1ECD88AC00396635 /* Debug */,
+				5F43ED202063BFED00ED3EFF /* Debug_DEV */,
 				4A3E50101ECD88AC00396635 /* Release */,
+				5F43ED232063C00E00ED3EFF /* Release_DEV */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -439,7 +590,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A3E50121ECD88AC00396635 /* Debug */,
+				5F43ED212063BFED00ED3EFF /* Debug_DEV */,
 				4A3E50131ECD88AC00396635 /* Release */,
+				5F43ED242063C00E00ED3EFF /* Release_DEV */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

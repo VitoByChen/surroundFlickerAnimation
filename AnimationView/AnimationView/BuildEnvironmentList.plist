@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Environment</key>
+	<string>A</string>
+	<key>A</key>
+	<dict>
+		<key> IPAddress</key>
+		<string>https://vitochenTest--1</string>
+		<key>Port</key>
+		<string>8080</string>
+	</dict>
+	<key>B</key>
+	<dict>
+		<key> IPAddress</key>
+		<string>https://vitochenTest--2</string>
+		<key>Port</key>
+		<string>8081</string>
+	</dict>
+	<key>C</key>
+	<dict>
+		<key> IPAddress</key>
+		<string>https://vitochenTest--3</string>
+		<key>Port</key>
+		<string>8082</string>
+	</dict>
+</dict>
+</plist>
