@@ -6,21 +6,21 @@
 	<string>A</string>
 	<key>A</key>
 	<dict>
-		<key> IPAddress</key>
+		<key>IPAddress</key>
 		<string>https://vitochenTest--1</string>
 		<key>Port</key>
 		<string>8080</string>
 	</dict>
 	<key>B</key>
 	<dict>
-		<key> IPAddress</key>
+		<key>IPAddress</key>
 		<string>https://vitochenTest--2</string>
 		<key>Port</key>
 		<string>8081</string>
 	</dict>
 	<key>C</key>
 	<dict>
-		<key> IPAddress</key>
+		<key>IPAddress</key>
 		<string>https://vitochenTest--3</string>
 		<key>Port</key>
 		<string>8082</string>
